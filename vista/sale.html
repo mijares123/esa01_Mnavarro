@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="..\js\script.js"></script>
+</head>
+<body>
+
+	<center>
+		<div cajatotal>
+			<div id="p1">
+				<select name="" id="producto">
+					<option value="laptop">laptop</option>
+					<option value="monitor">monitor</option>
+					<option value="teclado">teclado</option>
+					<option value="mouse">mouse</option>
+				</select>
+			</div>
+			<div id="p1">
+				<label for=""> Precio:</label>
+				<input type="text" id="precio">
+			</div>
+			<div id="p1">
+				<label for="" > Candidad:</label>
+				<input type="text" id="cantidad">
+			</div>
+			<div>
+				<button onclick="add()">add</button>
+			</div>
+			<div>
+				<table id="tabla">
+					<tr>
+						<th>#</th>
+						<th>Producto</th>
+						<th>Precio</th>
+						<th>Cantidad</th>
+						<th>Subtotal</th>
+						<th><img src="" alt=""></th>
+					</tr>
+				</table>
+				<label for="">Subtotal</label>
+				<input type="text" disabled>
+				<br>
+				<label for="">IGV:</label>
+				<input type="text" disabled>
+				<br>
+				<label for="">Total:</label>
+				<input type="text">
+			</div>
+		</div>
+	</center>
+
+</body>
+</html>
